@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^README\.md$
+^LICENSE\.md$
+^\.github$
+^\.DS_Store$
+\.DS_Store$
+^\.Rhistory$
+\.Rhistory$
+^.*\.tar\.gz$
+^.*\.Rcheck$

@@ -1,0 +1,36 @@
+Package: bootsurvimp
+Type: Package
+Title: Bootstrap Variance Estimation for Imputed Survey Data
+Version: 0.0.1
+Authors@R: c(
+    person("Zeinab", "Mashreghi", email = "z.mashreghi@uwinnipeg.ca",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-0563-0792")),
+    person("Sophia", "Perron", role = "aut",
+           comment = "Student developer"),
+    person("Antonio", "Axalan", role = "aut",
+           comment = "Student developer"))
+Description: Bootstrap methods for estimating the variance of estimators
+    (totals, means and quantiles) computed on imputed survey data under
+    stratified sampling designs. Rescaling bootstrap methods cover the
+    independent bootstrap of Mashreghi, Leger and Haziza (2014), in its
+    rescaled-data and bootstrap-weights forms, the unequal response
+    probability bootstrap of Mashreghi and Deng (2023), and the Shao and
+    Sitter (1996) method, under mean, random hot-deck, regression and ratio
+    imputation. Pseudo-population bootstrap methods cover doubly and
+    multiply robust regression and class hot-deck imputation under the
+    nonresponse-model, imputation-model and multiply robust schemes of Chen,
+    Haziza, Leger and Mashreghi (2019) and Chen, Haziza and Mashreghi (2021).
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    MASS,
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
